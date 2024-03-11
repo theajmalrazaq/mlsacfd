@@ -25,7 +25,9 @@
     }
   }
 }
-
+header {
+  display: none;
+}
 .header_nav {
   margin-top: 30px;
   background-color: var(--color-tras);
