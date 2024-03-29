@@ -3,32 +3,62 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 50px;
   padding: 20px;
+ 
   &__con {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+    &_wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      &__logo{
+        width: 100%;
+        height: 230px;
+      }
+      &__wave{
+        width: 100%;
+        height: 13px;
+        margin-top: 10px;
+      }
+    }
   }
+
 }
 
 .home_btnscon {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 20px;
 }
 
-.home_btnscon button {
+.home_btnscon button:nth-child(1) {
   padding: 10px 20px;
   border-radius: 99px;
   background-color: var(--color-primary);
   color: var(--text-black);
   font-size: 14px;
   font-weight: 600;
+  border:none;
   cursor: pointer;
   transition: all 0.3s ease;
 }
-
+.home_btnscon button:nth-child(2) {
+  padding: 10px 20px;
+  border-radius: 99px;
+  background-color: var(--color-secondary);
+  color: var(--text-white);
+  font-size: 14px;
+  font-weight: 600;
+  border:none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 .home_btnscon button:hover {
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -65,7 +95,3 @@ ul {
   height: 300px;
 }
 
-.logo {
-  max-width: 100%;
-  height: auto;
-}
