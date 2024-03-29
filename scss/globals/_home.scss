@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
+  height: 100vh;
   padding: 20px;
  
   &__con {
@@ -95,3 +96,17 @@ ul {
   height: 300px;
 }
 
+.social{
+  position: absolute;
+  display: flex;
+  right: 50px;
+ flex-direction: column;
+ gap: 20px;
+ background-color: var(--color-tras);
+ padding: 30px 15px;
+ border-radius: 99px;
+ border: 2px solid var(--color-border);
+ &_icon{
+   height: 24px;
+ }
+}
