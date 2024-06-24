@@ -54,6 +54,22 @@ body {
   font-family: var(--font-bold);
 }
 
+.image-5 {
+  position: absolute;
+  left: auto;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  width: 50%;
+}
+
+.bgleft {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 50%;
+}
+
 .section-img {
   height: 100vh;
   gap: 20px;
@@ -215,8 +231,7 @@ body {
     opacity: 1;
   }
 }
-.btn,
-.btn-top {
+.btn {
   color: var(--text-black);
   position: relative;
   background-color: var(--color-primary);
@@ -230,13 +245,20 @@ body {
   border-radius: 9px;
 }
 
-.btn:hover {
-  animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+.btn-2 {
+  color: var(--text-white);
+  position: relative;
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  font-family: lemonMilk;
+  text-transform: capitalize;
+  padding: 0.8rem 2rem;
+  border-radius: 9px;
 }
 
-.btn-top:hover {
-  background-color: white;
-  color: black;
+.btn:hover {
+  animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
 }
 
 /***************************************************

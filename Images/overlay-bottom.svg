@@ -1,0 +1,46 @@
+<svg width="957" height="1158" viewBox="0 0 957 1158" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_64)">
+<mask id="mask0_335_64" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="957" height="1158">
+<path d="M957 0H0V1158H957V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_335_64)">
+<g opacity="0.4" filter="url(#filter0_f_335_64)">
+<path d="M350 251L-114 353V907L706 791L222 619L350 251Z" fill="url(#paint0_linear_335_64)"/>
+<path d="M350 251L-114 353V907L706 791L222 619L350 251Z" fill="url(#paint1_linear_335_64)" stroke="black"/>
+<path d="M350 251L-114 353V907L706 791L222 619L350 251Z" fill="url(#paint2_linear_335_64)" stroke="url(#paint3_linear_335_64)"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_335_64" x="-364.5" y="0.319672" width="1320.67" height="1157.26" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="125" result="effect1_foregroundBlur_335_64"/>
+</filter>
+<linearGradient id="paint0_linear_335_64" x1="705.868" y1="220.89" x2="111.924" y2="875.171" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1400FF"/>
+<stop offset="0.236071" stop-color="#E71A64"/>
+<stop offset="0.680844" stop-color="#1BB8D1"/>
+<stop offset="1" stop-color="#FCC018"/>
+</linearGradient>
+<linearGradient id="paint1_linear_335_64" x1="705.868" y1="220.89" x2="111.924" y2="875.171" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1400FF"/>
+<stop offset="0.236071" stop-color="#E71A64"/>
+<stop offset="0.680844" stop-color="#1BB8D1"/>
+<stop offset="1" stop-color="#FCC018"/>
+</linearGradient>
+<linearGradient id="paint2_linear_335_64" x1="705.868" y1="220.89" x2="111.924" y2="875.171" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1400FF"/>
+<stop offset="0.236071" stop-color="#E71A64"/>
+<stop offset="0.680844" stop-color="#1BB8D1"/>
+<stop offset="1" stop-color="#FCC018"/>
+</linearGradient>
+<linearGradient id="paint3_linear_335_64" x1="296" y1="251" x2="296" y2="907" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_335_64">
+<rect width="957" height="1158" fill="white"/>
+</clipPath>
+</defs>
+</svg>
