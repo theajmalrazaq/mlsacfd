@@ -84,11 +84,9 @@ body {
   -webkit-background-clip: text;
   text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
-  z-index: 99;
-}
-.section-img h1:hover {
   animation: text-flicker-out-glow 2.5s ease-in both;
   cursor: pointer;
+  z-index: 99;
 }
 .section-img h5 {
   font-family: var(--font-pri);
@@ -242,7 +240,7 @@ body {
   border: 2px solid var(--color-tras);
   padding: 0.8rem 2rem;
   font-weight: 999;
-  border-radius: 9px;
+  border-radius: 99px;
 }
 
 .btn-2 {
@@ -252,13 +250,16 @@ body {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   font-family: lemonMilk;
-  text-transform: capitalize;
-  padding: 0.8rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 10px;
+  padding: 0rem 2rem;
   border-radius: 9px;
 }
 
 .btn:hover {
   animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  background-color: #ffffff;
 }
 
 /***************************************************
@@ -277,7 +278,7 @@ body {
   }
 }
 .svg-elem-1 {
-  animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 0s both;
+  animation: animate-svg-stroke-1 1s cubic-bezier(0.47, 0, 0.745, 0.715) 2s both;
 }
 
 /* ----------------------------------------------
