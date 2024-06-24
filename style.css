@@ -40,7 +40,7 @@ body {
 }
 
 .section-img {
-  background-image: url("../../overlay.svg"), url("../../Union.png");
+  background-image: url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/9943d9f51bb39f966338a39a80699fc48e21cace/overlay.svg"), url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/main/Union.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
