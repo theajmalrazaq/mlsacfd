@@ -3,10 +3,11 @@
     position: fixed;
     --bulma-navbar-background-color: var(--color-tras);
     --bluma-navbar-padding: 1rem 2rem;
+    backdrop-filter: blur(5px);
     font-size: 14px;
-    border-radius: 8px;
+    border-radius: 99px;
     padding: 5px 20px;
     font-family: var(--font-bold);
-    width: 60%;
+    width: 80%;
   }
 }
