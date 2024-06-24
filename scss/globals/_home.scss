@@ -1,6 +1,6 @@
 .section-img {
   background-image: url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/9943d9f51bb39f966338a39a80699fc48e21cace/overlay.svg"),
-    url("../../Union.png");
+    url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/main/Union.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -9,6 +9,7 @@
   h1 {
     -webkit-animation: text-flicker-out-glow 2.5s infinite both;
     animation: text-flicker-out-glow 2.5s infinite both;
+    margin-bottom: 0;
   }
 }
 /* ----------------------------------------------
