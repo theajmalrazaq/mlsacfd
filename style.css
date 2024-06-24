@@ -20,11 +20,11 @@ body {
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../../fonts/Gilroy-Bold.ttf") format("truetype");
+  src: url("../../fonts/Gilroy-Bold.woff2");
 }
 @font-face {
   font-family: "LemonMilk";
-  src: url("../../fonts/Lemon Milk Pro Regular.otf") format("opentype");
+  src: url("../../fonts/Lemon Milk Pro Regular.woff2");
 }
 :root {
   --bg-color: #000;
