@@ -275,12 +275,12 @@
 }
 .btn,
 .btn-top {
-  color: var(--text-white);
+  color: var(--text-black);
   position: relative;
-  background-color: var(--color-tras);
+  background-color: var(--color-primary);
   backdrop-filter: blur(10px);
   font-family: lemonMilk;
-  font-size: 12px;
+  font-size: 14px;
   border: 2px solid var(--color-tras);
   padding: 0.8rem 2rem;
   font-weight: 999;
