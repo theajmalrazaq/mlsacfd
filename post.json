@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2024-06-24",
+    "title": "Sample Title 1",
+    "description": "Description 1",
+    "link_primary": "http://example.com/link1",
+    "link_secondary": "http://example.com/link1_secondary",
+    "image_url": "https://images.pexels.com/photos/15301144/pexels-photo-15301144/free-photo-of-foamy-waves-on-the-shore-and-skyscrapers-of-a-coastal-city-in-distance.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "date": "2024-06-23",
+    "title": "Sample Title 2",
+    "description": "Description 2",
+    "link_primary": "http://example.com/link2",
+    "link_secondary": "http://example.com/link2_secondary",
+    "image_url": "https://images.pexels.com/photos/15301144/pexels-photo-15301144/free-photo-of-foamy-waves-on-the-shore-and-skyscrapers-of-a-coastal-city-in-distance.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  },
+  {
+    "date": "2024-06-22",
+    "title": "Sample Title 3",
+    "description": "Description 3",
+    "link_primary": "http://example.com/link3",
+    "link_secondary": "http://example.com/link3_secondary",
+    "image_url": "https://images.pexels.com/photos/15301144/pexels-photo-15301144/free-photo-of-foamy-waves-on-the-shore-and-skyscrapers-of-a-coastal-city-in-distance.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  }
+]
