@@ -3,7 +3,7 @@
   src: url("../../Gilroy-Bold.ttf");
 }
 :root {
-  --bg-color: #111111;
+  --bg-color: #000;
   --text-primary: #fff;
   --text-black: #000;
   --text-secondary: #8b8b8b;
@@ -13,13 +13,4 @@
   --color-tras: rgba(255, 255, 255, 0.1);
   --bulma-body-background-color: var(--bg-color);
   --font-bold: "Gilroy";
-}
-.section {
-  .navbar {
-    --bulma-navbar-background-color: var(--color-tras);
-    --bluma-navbar-padding: 1rem 2rem;
-    padding: 1rem 2rem;
-    border-radius: 19px;
-    font-family: var(--font-bold);
-  }
 }

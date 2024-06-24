@@ -1,0 +1,12 @@
+.section {
+  .navbar {
+    position: fixed;
+    --bulma-navbar-background-color: var(--color-tras);
+    --bluma-navbar-padding: 1rem 2rem;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-family: var(--font-bold);
+    width: 60%;
+  }
+}
