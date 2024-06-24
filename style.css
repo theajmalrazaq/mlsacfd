@@ -77,6 +77,7 @@ body {
 .section-img h1 {
   margin-bottom: 0;
   cursor: pointer;
+  font-weight: 700;
   font-family: var(--font-pri);
   color: #e71a64;
   background-image: -webkit-linear-gradient(45deg, #e71a64 24%, #fcc018 50%, #1bb8d1 91%);
