@@ -4,54 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MLSA CFD</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="home">
-      <img src="overlay.svg" alt="overlay" class="overlay" class="overlay" />
-
-      <nav class="header_nav">
-        <div class="header_nav_con_1">
-          <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Events</li>
-            <li>Ambassdors</li>
-            <li>Code-of-Conduct</li>
-            <li>Blog</li>
-            <li>Conatact Us</li>
-          </ul>
+    <div class="section">
+      <nav
+        class="navbar is-fixed"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io"> </a>
+          <img src="Title.svg" alt="" width="100px" />
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
         </div>
-      
+
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item"> Home </a>
+            <a class="navbar-item"> About </a>
+            <a class="navbar-item"> Events </a>
+            <a class="navbar-item"> Team </a>
+            <a class="navbar-item"> Code Of Conduct </a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light"> Log in </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
-      <div class="home__con">
-        <div class="social">
-          <a href=""><img src="Social Icons.svg" alt="" class="social_icon"></a>
-          <a href=""><img src="Social Icons-1.svg" alt="" class="social_icon"></a>
-          <a href=""><img src="Social Icons-2.svg" alt="" class="social_icon"></a>
-        </div>
-        <div class="home__con_wrapper">
-      <img src="logo.svg" alt="" class="home__con_wrapper__logo">
-      <h4>Fast CFD Chapter</h4>
-      <img src="wave.svg" alt="" class="home__con_wrapper__wave">
-      <h1>Be a Force For Good</h1>
-        <img src="cfd.svg" alt="cfd" class="cfd" class="cfd" />
-      </div>
-        <div class="home_btnscon">
-          <button class="home_btnscon_btn1">Register</button>
-          <button class="home_btnscon_btn2">Conatact us</button>
-        </div>
-      </div>
+      <!--- nav bar end-->
     </div>
-    <div class="events">
-<div class="events__con">
-<h2>Upcoming Events</h2>
-</div>
-<div class="events__con">
-<h2>Recent Events</h2>
-</div>
+    <div
+      class="section section-img is-flex is-flex-direction-column is-align-items-center"
+    >
+      <div class="is-flex">
+        <figure class="image is-128x128">
+          <img src="logo.svg" alt="" />
+        </figure>
+      </div>
 
+      <h1 class="title">Microsoft Learn Student Ambassdor</h1>
+      <h5 class="title is-5">FAST CFD CHAPTER</h5>
     </div>
   </body>
 </html>
