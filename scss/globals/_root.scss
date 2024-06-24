@@ -2,6 +2,10 @@
   font-family: "Gilroy";
   src: url("../../Gilroy-Bold.ttf");
 }
+@font-face {
+  font-family: LemonMilk;
+  src: url("../../lemon-milk-pro-2583912/Lemon\ Milk\ Pro\ Regular.otf");
+}
 :root {
   --bg-color: #000;
   --text-primary: #fff;
@@ -14,5 +18,7 @@
   --bulma-body-background-color: var(--bg-color);
   --bulma-block-spacing: 0px;
   --font-bold: "Gilroy";
+  --font-pri: lemonMilk;
+  --font-pri-rg: lemonMilk-Reg;
   --bluma-mt-6: 90px;
 }

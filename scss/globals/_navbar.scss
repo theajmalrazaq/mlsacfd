@@ -1,7 +1,7 @@
 .section {
   .navbar {
     position: fixed;
-    --bulma-navbar-background-color: var(--color-tras);
+    --bulma-navbar-background-color: transparent;
     --bluma-navbar-padding: 1rem 2rem;
     backdrop-filter: blur(5px);
     font-size: 14px;

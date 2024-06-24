@@ -1,15 +1,29 @@
 .section-img {
-  background-image: url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/9943d9f51bb39f966338a39a80699fc48e21cace/overlay.svg"),
-    url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/main/Union.png");
+  background-image: url("../../overlay.svg");
   height: 100vh;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: contain;
+  background-position: center;
   gap: 20px;
   h1 {
     -webkit-animation: text-flicker-out-glow 2.5s infinite both;
     animation: text-flicker-out-glow 2.5s infinite both;
     margin-bottom: 0;
+    font-family: var(--font-pri);
+    color: #e71a64;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      #e71a64 24%,
+      #fcc018 50%,
+      #1bb8d1 91%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+  }
+  h5 {
+    font-family: var(--font-pri);
+    letter-spacing: 3px;
   }
 }
 /* ----------------------------------------------
