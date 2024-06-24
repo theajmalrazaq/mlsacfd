@@ -1,11 +1,4 @@
-@font-face {
-  font-family: "Gilroy";
-  src: url("../../Gilroy-Bold.ttf");
-}
-@font-face {
-  font-family: LemonMilk;
-  src: url("../../lemon-milk-pro-2583912/Lemon\ Milk\ Pro\ Regular.otf");
-}
+@use "fonts" as *;
 :root {
   --bg-color: #000;
   --text-primary: #fff;
