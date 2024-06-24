@@ -20,11 +20,11 @@ body {
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../../Gilroy-Bold.ttf");
+  src: url("https://github.com/theajmalrazaq/mlsacfd/raw/main/fonts/Gilroy-Bold.ttf");
 }
 @font-face {
   font-family: LemonMilk;
-  src: url("../../lemon-milk-pro-2583912/Lemon Milk Pro Regular.otf");
+  src: url("https://github.com/theajmalrazaq/mlsacfd/raw/main/fonts/Lemon%20Milk%20Pro%20Medium.otf");
 }
 :root {
   --bg-color: #000;
@@ -39,7 +39,6 @@ body {
   --bulma-block-spacing: 0px;
   --font-bold: "Gilroy";
   --font-pri: lemonMilk;
-  --font-pri-rg: lemonMilk-Reg;
   --bluma-mt-6: 90px;
 }
 
@@ -57,10 +56,11 @@ body {
 }
 
 .section-img {
-  background-image: url("https://raw.githubusercontent.com/theajmalrazaq/mlsacfd/8e85ce7d9108e5695b82527f6dbb8f95481e8f18/overlay.svg");
+  background-image: url("https://github.com/theajmalrazaq/mlsacfd/raw/main/Images/overlay.svg");
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   gap: 20px;
 }
 .section-img h1 {
