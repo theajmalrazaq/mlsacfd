@@ -18,6 +18,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.gap {
+  gap: 20px;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("fonts/Gilroy-Bold.woff2");
@@ -52,6 +56,7 @@ body {
   border-radius: 99px;
   padding: 5px 20px;
   font-family: var(--font-bold);
+  z-index: 999;
 }
 
 .image-5 {
@@ -315,9 +320,14 @@ body {
     transform: rotate(2deg);
   }
 }
-.events {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+#event_date {
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.event_sec {
+  background-image: url("Images/overlay-center.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 600px;
 }/*# sourceMappingURL=style.css.map */

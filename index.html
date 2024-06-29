@@ -112,21 +112,31 @@
         </svg>
       </div>
     </div>
-    <div class="section is-flex is-justify-content-space-around">
-      <div class="row">
-        <div class="column" id="post1">
-          <!-- First post will be dynamically added here -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="column" id="post2">
-          <!-- Second post will be dynamically added here -->
-        </div>
-        <div class="column" id="post3">
-          <!-- Third post will be dynamically added here -->
+    <div class="section event_sec">
+      <div class="columns is-justify-content-center">
+        <div
+          class="column is-half is-flex is-flex-direction-column is-align-items-center gap"
+        >
+          <h1 class="title is-3">Upcoming Events</h1>
+          <h1 id="event_date" class="title is-6"></h1>
+          <img id="event_poster" src="Images/Group 1.svg" alt="" />
+          <h1 class="title is-4" id="event_name">Event Name</h1>
+          <p id="event_description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div class="event_buttons">
+            <button class="button is-link" id="link_primary">Register</button>
+            <button class="button is-link" id="link_secondary">
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
