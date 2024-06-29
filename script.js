@@ -14,7 +14,7 @@ fetch("post.json")
     for (let i = 0; i < keysjson.length - 3; i++) {
       eventobj[objkeys[i]].innerHTML = data[0][keysjson[i]];
     }
-    eventobj.event_poster.setAttribute("src", data[0].image_url);
     eventobj.link_primary.setAttribute("href", data[0].link_primary);
     eventobj.link_secondary.setAttribute("href", data[0].link_secondary);
+    document.getElementById("event_form").value = `${data[0].title}`;
   });

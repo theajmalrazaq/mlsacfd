@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MLSA CFD</title>
+
+    <script src="https://web3forms.com/client/script.js" async defer></script>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css"
@@ -46,7 +48,7 @@
       </nav>
     </div>
     <div
-      class="section section-img is-flex is-flex-direction-column is-align-items-center is-justify-content-center mt-4"
+      class="section section-img is-flex is-flex-direction-column is-align-items-center mt-4"
     >
       <img src="Images/cfd.png" class="cfd-img" />
       <div class="is-flex">
@@ -111,25 +113,73 @@
           />
         </svg>
       </div>
+      <div id="register_pop" class="columns" style="z-index: 99">
+        <div class="column">
+          <form
+            action="https://api.web3forms.com/submit"
+            method="POST"
+            class="is-flex is-flex-direction-column"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="b9edecec-38d0-4cc3-b612-dbc7e047e221"
+            />
+            <input
+              type="text"
+              name="event_name_form"
+              id="event_form"
+              style="display: none"
+            />
+            <input type="text" name="name" required />
+            <input type="email" name="email" required />
+            <textarea name="message" required></textarea>
+            <div class="h-captcha" data-captcha="false"></div>
+
+            <!-- Honeypot Spam Protection -->
+            <input
+              type="checkbox"
+              name="botcheck"
+              class="hidden"
+              style="display: none"
+            />
+
+            <!-- Custom Confirmation / Success Page -->
+            <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+            <button type="submit">Submit Form</button>
+          </form>
+        </div>
+      </div>
     </div>
     <div class="section event_sec">
       <div class="columns is-align-items-center is-flex-direction-column">
-        <h1 class="title is-3 mb-5 has-text-centered">Upcoming Events</h1>
+        <h1 class="title is-4 mb-7 has-text-centered p-6">Upcoming Events</h1>
         <div
-          class="column is-half is-flex is-flex-direction-column is-align-items-center gap border pb-6 pt-6"
+          class="column is-half is-flex is-flex-direction-column is-align-items-center gap pb-6 pt-6"
         >
           <h1 id="event_date" class="title is-6"></h1>
-          <h1 class="title is-4" id="event_name"></h1>
+          <h1 class="title is-5" id="event_name"></h1>
           <p
             id="event_description"
-            class="is-size-7 has-text-centered has-text-weight-light"
+            class="is-size-7 has-text-centered has-text-weight-light is-capitalized text"
           ></p>
-          <div class="event_buttons is-flex is-align-items-center">
+          <div
+            class="event_buttons is-flex is-flex-direction-column is-align-items-center"
+          >
             <a href="" id="link_primary"
-              ><button class="button is-link btn">Register</button></a
+              ><button
+                class="button is-link btn-pri"
+                onclick="generatepostpage()"
+              >
+                Register
+              </button></a
             >
             <a href="" id="link_secondary">
-              <button class="button is-link btn-2">Learn More</button></a
+              <button class="button is-ghost">Learn More</button></a
+            >
+            <a href="" id="link_secondary">
+              <button class="button mt-6">View Recent Events</button></a
             >
           </div>
         </div>

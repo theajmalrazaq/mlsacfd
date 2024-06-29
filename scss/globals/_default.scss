@@ -7,7 +7,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-primary);
-  font-family: var(--font-bold);
+  font-family: var(--font-txt);
 }
 .overlay {
   position: absolute;
@@ -21,4 +21,7 @@ body {
 .border {
   border: 2px solid var(--color-border);
   border-radius: 18px;
+}
+.title {
+  font-family: var(--font-pri);
 }

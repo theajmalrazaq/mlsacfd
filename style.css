@@ -8,7 +8,7 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-primary);
-  font-family: var(--font-bold);
+  font-family: var(--font-txt);
 }
 
 .overlay {
@@ -27,6 +27,10 @@ body {
   border-radius: 18px;
 }
 
+.title {
+  font-family: var(--font-pri);
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("fonts/Gilroy-Bold.woff2");
@@ -34,6 +38,12 @@ body {
 @font-face {
   font-family: "LemonMilk";
   src: url("fonts/Lemon Milk Pro Regular.woff2");
+}
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format("woff2");
 }
 :root {
   --bg-color: #000;
@@ -48,6 +58,7 @@ body {
   --bulma-block-spacing: 0px;
   --font-bold: "Gilroy";
   --font-pri: "LemonMilk";
+  --font-txt: Product Sans;
   --bulma-mt-6: 90px;
 }
 
@@ -244,6 +255,20 @@ body {
 .btn {
   color: var(--text-black);
   position: relative;
+  background-image: -webkit-linear-gradient(45deg, #e71a64 24%, #fcc018 50%, #1bb8d1 91%);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  font-family: lemonMilk;
+  font-size: 14px;
+  border: 2px solid var(--color-tras);
+  padding: 0.8rem 2rem;
+  font-weight: 999;
+  border-radius: 99px;
+}
+
+.btn-pri {
+  color: var(--text-black);
+  position: relative;
   background-color: var(--color-primary);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
@@ -269,7 +294,6 @@ body {
 
 .btn:hover {
   animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  background-color: #ffffff;
 }
 
 /***************************************************
@@ -324,7 +348,6 @@ body {
   }
 }
 #event_date {
-  text-transform: uppercase;
   color: var(--color-primary);
 }
 
@@ -338,4 +361,15 @@ body {
 #event_poster {
   width: 200px;
   border-radius: 18px;
+}
+
+#register_pop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }/*# sourceMappingURL=style.css.map */

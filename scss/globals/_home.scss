@@ -292,6 +292,23 @@
 .btn {
   color: var(--text-black);
   position: relative;
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #e71a64 24%,
+    #fcc018 50%,
+    #1bb8d1 91%
+  );
+  backdrop-filter: blur(10px);
+  font-family: lemonMilk;
+  font-size: 14px;
+  border: 2px solid var(--color-tras);
+  padding: 0.8rem 2rem;
+  font-weight: 999;
+  border-radius: 99px;
+}
+.btn-pri {
+  color: var(--text-black);
+  position: relative;
   background-color: var(--color-primary);
   backdrop-filter: blur(10px);
   font-family: lemonMilk;
@@ -316,7 +333,6 @@
   -webkit-animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
     both;
   animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  background-color: #ffffff;
 }
 
 /***************************************************
