@@ -46,7 +46,7 @@
       </nav>
     </div>
     <div
-      class="section section-img is-flex is-flex-direction-column is-align-items-center mt-4"
+      class="section section-img is-flex is-flex-direction-column is-align-items-center is-justify-content-center mt-4"
     >
       <img src="Images/cfd.png" class="cfd-img" />
       <div class="is-flex">
@@ -113,25 +113,24 @@
       </div>
     </div>
     <div class="section event_sec">
-      <div class="columns is-justify-content-center">
+      <div class="columns is-align-items-center is-flex-direction-column">
+        <h1 class="title is-3 mb-5 has-text-centered">Upcoming Events</h1>
         <div
-          class="column is-half is-flex is-flex-direction-column is-align-items-center gap"
+          class="column is-half is-flex is-flex-direction-column is-align-items-center gap border pb-6 pt-6"
         >
-          <h1 class="title is-3">Upcoming Events</h1>
           <h1 id="event_date" class="title is-6"></h1>
-          <img id="event_poster" src="Images/Group 1.svg" alt="" />
-          <h1 class="title is-4" id="event_name">Event Name</h1>
-          <p id="event_description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-          <div class="event_buttons">
-            <button class="button is-link" id="link_primary">Register</button>
-            <button class="button is-link" id="link_secondary">
-              Learn More
-            </button>
+          <h1 class="title is-4" id="event_name"></h1>
+          <p
+            id="event_description"
+            class="is-size-7 has-text-centered has-text-weight-light"
+          ></p>
+          <div class="event_buttons is-flex is-align-items-center">
+            <a href="" id="link_primary"
+              ><button class="button is-link btn">Register</button></a
+            >
+            <a href="" id="link_secondary">
+              <button class="button is-link btn-2">Learn More</button></a
+            >
           </div>
         </div>
       </div>

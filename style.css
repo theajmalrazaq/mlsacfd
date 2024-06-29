@@ -22,6 +22,11 @@ body {
   gap: 20px;
 }
 
+.border {
+  border: 2px solid var(--color-border);
+  border-radius: 18px;
+}
+
 @font-face {
   font-family: "Gilroy";
   src: url("fonts/Gilroy-Bold.woff2");
@@ -254,8 +259,6 @@ body {
   color: var(--text-white);
   position: relative;
   background-color: transparent;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
   font-family: lemonMilk;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -330,4 +333,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 600px;
+}
+
+#event_poster {
+  width: 200px;
+  border-radius: 18px;
 }/*# sourceMappingURL=style.css.map */
