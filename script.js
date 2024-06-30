@@ -1,9 +1,9 @@
 const eventobj = {
   event_date: document.getElementById("event_date"),
+  event_time: document.getElementById("event_time"),
   event_name: document.getElementById("event_name"),
   event_description: document.getElementById("event_description"),
   event_speaker: document.getElementById("event_speaker"),
-  event_time: document.getElementById("event_time"),
   event_venue: document.getElementById("event_venue"),
   event_poster: document.getElementById("event_poster"),
   link_primary: document.getElementById("link_primary"),
