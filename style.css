@@ -103,7 +103,6 @@ body {
   background-image: -webkit-linear-gradient(45deg, #e71a64 24%, #fcc018 50%, #1bb8d1 91%);
   background-clip: text;
   -webkit-background-clip: text;
-  text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
   animation: text-flicker-out-glow 2.5s ease-in both;
   cursor: pointer;
