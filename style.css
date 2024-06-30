@@ -91,11 +91,10 @@ body {
   width: 50%;
 }
 
-.section-img {
+.sec_hero {
   height: 100vh;
-  gap: 20px;
 }
-.section-img h1 {
+.sec_hero h1 {
   margin-bottom: 0;
   cursor: pointer;
   font-weight: 700;
@@ -110,7 +109,7 @@ body {
   cursor: pointer;
   z-index: 99;
 }
-.section-img h5 {
+.sec_hero h5 {
   font-family: var(--font-pri);
   letter-spacing: 3px;
   z-index: 99;
