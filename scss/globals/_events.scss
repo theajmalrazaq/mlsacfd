@@ -21,3 +21,8 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999;
 }
+.event-info {
+  background-color: var(--color-trans);
+  backdrop-filter: blur(10px);
+  border-radius: 18px;
+}
