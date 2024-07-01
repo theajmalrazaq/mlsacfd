@@ -1,0 +1,13 @@
+.team_mem {
+  background-image: url("Images/Team/furqan.png");
+  width: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  filter: grayscale(1);
+  border-radius: 18px;
+  z-index: 99;
+  border: 2px solid var(--color-border);
+  transition: all 0.2s ease-out;
+}
