@@ -379,6 +379,10 @@ body {
   border-radius: 18px;
 }
 
+#team_col {
+  width: 1050px;
+}
+
 .team_mem {
   background-image: url("Images/Team/furqan.png");
   width: 100px;
@@ -390,5 +394,31 @@ body {
   border-radius: 18px;
   z-index: 99;
   border: 2px solid var(--color-border);
+  transition: all 0.3s ease-out;
+}
+
+.team_wrapper {
+  overflow-x: scroll;
+}
+
+.team_mem:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.member_name {
   transition: all 0.2s ease-out;
+}
+
+.designation {
+  transition: all 0.2s ease-out;
+}
+
+footer {
+  background-color: var(--color-trans);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 18px;
+  margin: 3rem;
 }/*# sourceMappingURL=style.css.map */
